@@ -5,33 +5,40 @@ import './App.css'
 //creating a component for squares in tic-tac-toe game
 
 function Square() {
+  return <button className='square'>x</button>
+}
+
+
+function Board() {
   return (
     <>
       <div className='board-row'>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
+        <Square />
+        <Square />
+        <Square />
       </div>
       <div className='board-row'>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
+        <Square />
+        <Square />
+        <Square />
       </div>
       <div className='board-row'>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
-        <button className='square'>X</button>
+        <Square /> 
+        <Square />
+        <Square />
       </div>
     </>
   )
 }
+
+
 
 function App() {
 
   return (
       <div>
         <h1>Tic-Tac-Toe</h1>
-        <Square />
+        <Board />
       </div>
   )
 }
