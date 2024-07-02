@@ -57,3 +57,23 @@ ol{
     display: inline-block;
     justify-content: center;
 }
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 20px;
+}
+
+.game-board {
+    display: inline-block;
+    padding: 20px;
+}
+
+.game-info {
+    margin-top: 80px;
+    display: inline-block;
+    padding: 20px;
+    align-self: center;
+}
